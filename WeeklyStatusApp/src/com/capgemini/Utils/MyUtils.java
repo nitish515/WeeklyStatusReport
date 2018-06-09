@@ -25,6 +25,7 @@ public class MyUtils {
 	
 	public static List<Project> getListOfProjects(HttpSession session){
 		List<Project> list = (List<Project>) session.getAttribute("listOfProjects");
+		System.out.println(list.size());
 		return list;
 	}
 }
