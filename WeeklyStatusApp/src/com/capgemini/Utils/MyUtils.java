@@ -29,6 +29,7 @@ public class MyUtils {
 		List<Project> list = (List<Project>) session.getAttribute("listOfProjects");
 		System.out.println(list.size()); 
 		System.out.println("dev_nit2");
+		System.out.println("dev_nit");
 		System.out.println("yes please");
 		return list;
 	}
