@@ -23,6 +23,7 @@ public class MyUtils {
 		session.setAttribute("listOfProjects", list);
 		System.out.println("dev_nit2");
 		System.out.println("yes please");
+		
 	}
 	
 	public static List<Project> getListOfProjects(HttpSession session){
