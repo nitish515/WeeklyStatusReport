@@ -21,8 +21,7 @@ public class MyUtils {
 	
 	public static void storeListOfProjects(HttpSession session, List<Project> list){
 		session.setAttribute("listOfProjects", list);
-		System.out.println("dev_nit2");
-		System.out.println("yes please");
+		System.out.println("dev_nit");
 	}
 	
 	public static List<Project> getListOfProjects(HttpSession session){
